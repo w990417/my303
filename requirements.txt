@@ -1,0 +1,9 @@
+# only lists packages that are imported
+# i.e. not all the packages that are in the environment
+
+# for notebook (.ipynb) support, pipreqsnb is used instead of pipreqs : `pip install pipreqsnb`
+# `--channel pytorch` is used to install pytorch and torchvision
+matplotlib==3.7.1
+numpy==1.23.5
+pytorch==2.0.0 -c pytorch
+torchvision==0.15.0 -c pytorch
