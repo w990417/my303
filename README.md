@@ -5,10 +5,23 @@ DATA303-Advanced Machine Learning: generative AI @ Korea University
 2. [Image generation by VAE](https://github.com/mlvlab/data303/blob/main/Image_Generation_by_VAE.ipynb)
 
 
-## notes
 
-`requirements.txt` ONLY lists the packages that are imported by the notebooks. If you want to run the notebooks, you need to install the packages listed in requirements.txt. You can do this by running the following command in the terminal:
+## packages
+### pytorch installation
 
+for pytorch installation, refer to https://pytorch.org/get-started/locally/
+
+
+for windows (RTX 3060 Ti):
 ```bash
-conda create --name .conda --file requirements.txt --channel pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
+
+for mac (M1):
+```bash
+conda install pytorch torchvision torchaudio -c pytorch
+```
+
+### reqirements.txt
+requirements.txt lists imported python packages for each platform (windows, mac)
+note that it does not list all the packages in the environment, but only the packages that are imported in the notebooks.

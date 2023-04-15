@@ -1,5 +1,11 @@
+
+### added by wonjaegye START ###
 # conda environment folder
-/.conda/*
+my303_env/
+
+# test notebook
+test.ipynb
+### added by wonjaegye END ###
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
