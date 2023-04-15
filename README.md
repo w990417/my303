@@ -5,6 +5,8 @@ DATA303-Advanced Machine Learning: generative AI @ Korea University
 2. [Image generation by VAE](https://github.com/mlvlab/data303/blob/main/Image_Generation_by_VAE.ipynb)
 
 
+class repo cloned from : https://github.com/mlvlab/data303
+
 
 ## packages
 ### pytorch installation
@@ -24,4 +26,5 @@ conda install pytorch torchvision torchaudio -c pytorch
 
 ### reqirements.txt
 requirements.txt lists imported python packages for each platform (windows, mac)
-note that it does not list all the packages in the environment, but only the packages that are imported in the notebooks.
+
+note that it does not list all the packages in the environment (platform specific dependencies etc.), but only the packages that are imported in the notebooks.
